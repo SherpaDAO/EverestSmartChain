@@ -8,7 +8,7 @@ parent:
 </div>
 
 <div align="center">
-  <a href="https://github.com/evmos/evmos/releases/latest">
+  <a href="https://github.com/EverestSmartChain/EverestSmartChain/releases">
     <img alt="Version" src="https://img.shields.io/github/tag/tharsis/evmos.svg" />
   </a>
   <a href="https://github.com/evmos/evmos/blob/main/LICENSE">
