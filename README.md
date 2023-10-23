@@ -74,7 +74,7 @@ You can also check the instructions to [Run a Node](https://docs.evmos.org/proto
 The following chat channels and forums are a great spot to ask questions about Evmos:
 
 - [Evmos Twitter](https://twitter.com/EverestC19862)
-- [Evmos Discord](https://discord.gg/evmos)
+- [Evmos Discord](https://discord.gg/pDv6sERWFF)
 - [Evmos Forum](https://commonwealth.im/evmos)
 
 ## Contributing
