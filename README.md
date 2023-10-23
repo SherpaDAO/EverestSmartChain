@@ -34,10 +34,7 @@ parent:
   <a href="https://codecov.io/gh/evmos/evmos">
     <img alt="Code Coverage" src="https://codecov.io/gh/evmos/evmos/branch/main/graph/badge.svg" />
   </a>
-  <a href="https://twitter.com/EvmosOrg">
-    <img alt="Twitter Follow Evmos" src="https://img.shields.io/twitter/follow/EvmosOrg"/>
-  </a>
-</div>
+ </div>
 
 Everest Smart Chain is a scalable, high-throughput Proof-of-Stake blockchain
 that is fully compatible and interoperable with Ethereum.
