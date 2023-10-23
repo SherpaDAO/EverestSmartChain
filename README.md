@@ -25,7 +25,7 @@ parent:
   </a>
 </div>
 <div align="center">
-  <a href="https://discord.gg/evmos">
+  <a href="https://discord.gg/pDv6sERWFF">
     <img alt="Discord" src="https://img.shields.io/discord/809048090249134080.svg" />
   </a>
   <a href="https://github.com/evmos/evmos/actions?query=branch%3Amain+workflow%3ALint">
