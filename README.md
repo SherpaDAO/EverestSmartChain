@@ -39,14 +39,14 @@ parent:
   </a>
 </div>
 
-Evmos is a scalable, high-throughput Proof-of-Stake blockchain
+Everest Smart Chain is a scalable, high-throughput Proof-of-Stake blockchain
 that is fully compatible and interoperable with Ethereum.
 It's built using the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk/)
 which runs on top of the [Tendermint Core](https://github.com/tendermint/tendermint) consensus engine.
 
 ## Documentation
 
-Our documentation is hosted in a [separate repository](https://github.com/evmos/docs) and can be found at [docs.evmos.org](https://docs.evmos.org).
+Our documentation is hosted in a [separate repository](https://github.com/EverestSmartChain/docs) and can be found at [docs.evmos.org](https://docs.evmos.org).
 Head over there and check it out.
 
 **Note**: Requires [Go 1.20+](https://golang.org/dl/)
@@ -73,7 +73,7 @@ You can also check the instructions to [Run a Node](https://docs.evmos.org/proto
 
 The following chat channels and forums are a great spot to ask questions about Evmos:
 
-- [Evmos Twitter](https://twitter.com/EvmosOrg)
+- [Evmos Twitter](https://twitter.com/EverestC19862)
 - [Evmos Discord](https://discord.gg/evmos)
 - [Evmos Forum](https://commonwealth.im/evmos)
 
@@ -81,10 +81,6 @@ The following chat channels and forums are a great spot to ask questions about E
 
 Looking for a good place to start contributing?
 Check out some
-[`good first issues`](https://github.com/evmos/evmos/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
+[`good first issues`](https://github.com/EverestSmartChain/EverestSmartChain/issues).
 
 For additional instructions, standards and style guides, please refer to the [Contributing](./CONTRIBUTING.md) document.
-
-## Careers
-
-See our open positions on [Greenhouse](https://boards.eu.greenhouse.io/evmos).
