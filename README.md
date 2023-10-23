@@ -46,7 +46,7 @@ which runs on top of the [Tendermint Core](https://github.com/tendermint/tenderm
 
 ## Documentation
 
-Our documentation is hosted in a [separate repository](https://github.com/EverestSmartChain/docs) and can be found at [docs.evmos.org](https://docs.everestchain.net).
+Our documentation is hosted in a [separate repository](https://github.com/EverestSmartChain/docs) and can be found at [docs.everestchain.net](https://docs.everestchain.net).
 Head over there and check it out.
 
 **Note**: Requires [Go 1.20+](https://golang.org/dl/)
