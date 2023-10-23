@@ -75,7 +75,6 @@ The following chat channels and forums are a great spot to ask questions about E
 
 - [Evmos Twitter](https://twitter.com/EverestC19862)
 - [Evmos Discord](https://discord.gg/pDv6sERWFF)
-- [Evmos Forum](https://commonwealth.im/evmos)
 
 ## Contributing
 
