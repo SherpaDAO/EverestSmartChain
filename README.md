@@ -36,7 +36,25 @@ export PATH=$PATH:/usr/local/go/bin
 
 source ~/.profile
 
+#clone this repository 
+
+git clone https://github.com/EverestSmartChain/EverestSmartChain
+cd EverestSmartChain
 make install
+
+# once make finishes your binaries will be avilable in /root/go/bin/
+
+# Create EVT keys prior starting the Chain , Assuming you are inside the Directlry where binary is i.e /root/go/bin/  (replace your-identifier-name with any name you like)
+
+./evtd keys add your-identifier-name  
+
+#initialize the chain 
+
+./evtd init your-identifier-name --chain-id "evt_8848-1"
+
+#Once the Chain is initialized some files will be generated inside /root/.evtd/config/
+
+
 ```
 
 Or check out the latest [release](https://github.com/evmos/evmos/releases).
