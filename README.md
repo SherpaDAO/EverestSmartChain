@@ -55,6 +55,14 @@ make install
 #Once the Chain is initialized some files will be generated inside /root/.evtd/config/
 # We need to Supply the Original genesis.json file prior starting the chain
 
+#empty the genesis.json file present is /root/.evtd/config/genesis.json
+
+0>/root/.evtd/config/genesis.json
+
+#Copy the content from https://github.com/EverestSmartChain/EverestSmartChain/blob/main/samples/genesis.json
+
+nano /root/.evtd/config/genesis.json
+
 
 ```
 
