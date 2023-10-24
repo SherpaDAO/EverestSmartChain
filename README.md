@@ -62,7 +62,7 @@ Or check out the latest [release](https://github.com/evmos/evmos/releases).
 
 ## Quick Start
 
-To learn how the Evmos works from a high-level perspective,
+To learn how the Everest Smart Chain works from a high-level perspective,
 go to the [Protocol Overview](https://docs.evmos.org/protocol) section from the documentation.
 You can also check the instructions to [Run a Node](https://docs.evmos.org/protocol/evmos-cli#run-an-evmos-node).
 
