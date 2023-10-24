@@ -53,6 +53,7 @@ make install
 ./evtd init your-identifier-name --chain-id "evt_8848-1"
 
 #Once the Chain is initialized some files will be generated inside /root/.evtd/config/
+# We need to Supply the Original genesis.json file prior starting the chain
 
 
 ```
