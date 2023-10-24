@@ -63,6 +63,14 @@ make install
 
 nano /root/.evtd/config/genesis.json
 
+#Edit the Config File and add peers 
+
+nano /root/.evtd/config/config.toml
+
+#one the Line where it says persistent_peers add "aef9fffffb810933b6131416aa2cf221870a7e89@158.69.35.30:26656"
+
+#Start The chain  and Let it Sync 
+./evtd start 
 
 ```
 
