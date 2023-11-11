@@ -67,7 +67,7 @@ nano /root/.evtd/config/genesis.json
 
 nano /root/.evtd/config/config.toml
 
-#one the Line where it says persistent_peers add "aef9fffffb810933b6131416aa2cf221870a7e89@158.69.35.30:26656"
+#one the Line where it says persistent_peers add "fda3d109e4a1d46558d9f92ad6c5b3fedcb7098b@158.69.35.30:26656"
 
 #Start The chain  and Let it Sync 
 ./evtd start 
