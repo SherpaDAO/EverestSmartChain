@@ -1,11 +1,11 @@
 {
-  "genesis_time": "2023-10-23T04:43:47.028143967Z",
+  "genesis_time": "2023-11-10T12:30:18.570269379Z",
   "chain_id": "evt_8848-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
       "max_bytes": "22020096",
-      "max_gas": "10000000",
+      "max_gas": "2100000000",
       "time_iota_ms": "1000"
     },
     "evidence": {
@@ -34,7 +34,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "evt17sdfhuknu73h3sjj3mjlpj23mneqsj47j9axa5",
+            "address": "evt1l0fa690vgz84nxatwhjvvcgx46u4w7n5ckkuxa",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -53,7 +53,7 @@
       },
       "balances": [
         {
-          "address": "evt17sdfhuknu73h3sjj3mjlpj23mneqsj47j9axa5",
+          "address": "evt1l0fa690vgz84nxatwhjvvcgx46u4w7n5ckkuxa",
           "coins": [
             {
               "denom": "aevt",
@@ -214,11 +214,11 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "10000",
-                "delegator_address": "evt17sdfhuknu73h3sjj3mjlpj23mneqsj47j9axa5",
-                "validator_address": "evtvaloper17sdfhuknu73h3sjj3mjlpj23mneqsj47xy3wr0",
+                "delegator_address": "evt1l0fa690vgz84nxatwhjvvcgx46u4w7n5ckkuxa",
+                "validator_address": "evtvaloper1l0fa690vgz84nxatwhjvvcgx46u4w7n5vh65cx",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "eI9wdRgtmUISDxi1AsTIYq/LfFhLvd8tBClFS6hOJ3U="
+                  "key": "tPOWzq6js9GgPcPhgonI9KA3UJayjerzT5zR1DTru+g="
                 },
                 "value": {
                   "denom": "aevt",
@@ -226,7 +226,7 @@
                 }
               }
             ],
-            "memo": "aef9fffffb810933b6131416aa2cf221870a7e89@158.69.35.30:26656",
+            "memo": "fda3d109e4a1d46558d9f92ad6c5b3fedcb7098b@158.69.35.30:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -236,7 +236,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "A5B4korwAg2D/eF+pv8QCMcFLrE5oJEQvFVZ/yq9vhQG"
+                  "key": "AkiigHikDQJrskM2J7IQuj+zQsRgz5Cy1mAD/J+pFdKh"
                 },
                 "mode_info": {
                   "single": {
@@ -255,7 +255,7 @@
             "tip": null
           },
           "signatures": [
-            "XCdJjZX2ehUj/9yAAZ3Kb0IVvVDNxuha4LTwF2Cy65oqCXEddfYTJ1Ur9aasPHQ1wB8/TIHtWTtFzfWMDj5CpwA="
+            "1xr120qnbIVBb9AzG5DqKOzWfc2ZqmA3CxDfLTmHr3hZb19ZSeN0gze8u9m72yqVQht16CNLIraoOYBUNo2VdQE="
           ]
         }
       ]
