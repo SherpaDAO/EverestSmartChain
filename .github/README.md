@@ -84,8 +84,8 @@ To learn how the Everest Smart Chain works from a high-level perspective, go to 
 
 The following chat channels and forums are a great spot to ask questions about Evmos:
 
-* [Evmos Twitter](https://twitter.com/EverestC19862)
-* [Evmos Discord](https://discord.gg/pDv6sERWFF)
+* [EVT Twitter](https://twitter.com/EverestC19862)
+* [EVT Discord](https://discord.gg/pDv6sERWFF)
 
 ### Contributing
 
