@@ -74,7 +74,7 @@ nano /root/.evtd/config/config.toml
 
 ```
 
-Or check out the latest [release](https://github.com/evmos/evmos/releases).
+Or check out the latest [release](https://github.com/EverestSmartChain/EverestSmartChain/releases).
 
 ### Quick Start
 
