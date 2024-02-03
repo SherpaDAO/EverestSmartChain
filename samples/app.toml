@@ -1,3 +1,6 @@
+app.toml 
+
+root@s9nqObb7:~/.evtd/config# cat app.toml
 # This is a TOML config file.
 # For more information, see https://github.com/toml-lang/toml
 
@@ -14,7 +17,7 @@ minimum-gas-prices = "0aevt"
 # nothing: all historic states will be saved, nothing will be deleted (i.e. archiving node)
 # everything: 2 latest states will be kept; pruning at 10 block intervals.
 # custom: allow pruning options to be manually specified through 'pruning-keep-recent', and 'pruning-interval'
-pruning = "nothing"
+pruning = "default"
 
 # These are applied if and only if the pruning strategy is custom.
 pruning-keep-recent = "0"
@@ -59,11 +62,11 @@ inter-block-cache = true
 # ["message.sender", "message.recipient"]
 index-events = []
 
-# IavlCacheSize set the size of the iavl tree cache. 
+# IavlCacheSize set the size of the iavl tree cache.
 # Default cache size is 50mb.
 iavl-cache-size = 781250
 
-# IavlDisableFastNode enables or disables the fast node feature of IAVL. 
+# IavlDisableFastNode enables or disables the fast node feature of IAVL.
 # Default is false.
 iavl-disable-fastnode = false
 
@@ -118,10 +121,10 @@ global-labels = [
 [api]
 
 # Enable defines if the API server should be enabled.
-enable = true
+enable = false
 
 # Swagger defines if swagger documentation should automatically be registered.
-swagger = true
+swagger = false
 
 # Address defines the API server to listen on.
 address = "tcp://0.0.0.0:1317"
@@ -139,7 +142,7 @@ rpc-write-timeout = 0
 rpc-max-body-bytes = 1000000
 
 # EnableUnsafeCORS defines if CORS should be enabled (unsafe - use it at your own risk).
-enabled-unsafe-cors = true
+enabled-unsafe-cors = false
 
 ###############################################################################
 ###                           Rosetta Configuration                         ###
@@ -241,7 +244,7 @@ keys = ["*", ]
 write_dir = ""
 prefix = ""
 
-# output-metadata specifies if output the metadata file which includes the abci request/responses 
+# output-metadata specifies if output the metadata file which includes the abci request/responses
 # during processing the block.
 output-metadata = "true"
 
@@ -282,7 +285,7 @@ ws-address = "0.0.0.0:8546"
 
 # API defines a list of JSON-RPC namespaces that should be enabled
 # Example: "eth,txpool,personal,net,debug,web3"
-api = "eth,txpool,personal,net,debug,web3,pubsub,trace"
+api = "eth,net,web3"
 
 # GasCap sets a cap on gas that can be used in eth_call/estimateGas (0=infinite). Default: 25,000,000.
 gas-cap = 25000000
@@ -324,7 +327,7 @@ enable-indexer = false
 
 # MetricsAddress defines the EVM Metrics server address to bind to. Pass --metrics in CLI to enable
 # Prometheus metrics path: /debug/metrics/prometheus
-metrics-address = 0.0.0.0:6065"
+metrics-address = "0.0.0.0:6065"
 
 # Upgrade height for fix of revert gas refund logic when transaction reverted.
 fix-revert-gas-refund-height = 0
@@ -340,3 +343,4 @@ certificate-path = ""
 
 # Key path defines the key.pem file path for the TLS configuration.
 key-path = ""
+root@s9nqObb7:~/.evtd/config#
