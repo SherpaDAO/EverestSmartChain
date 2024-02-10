@@ -14,7 +14,7 @@ Our documentation is hosted in a [separate repository](https://github.com/Everes
 
 ### Installation
 
-For prerequisites and detailed build instructions please read the [Installation](https:/https://docs.everestchain.net/protocol/evtd-cli) instructions. For Docker Fastest Deployment with Docker Please follow https://github.com/EverestSmartChain/EVT-DOCKER To Quickly Spin up a validator Node or a Full Node below steps are Enough&#x20; 
+For prerequisites and detailed build instructions please read the [Installation](https:/https://docs.everestchain.net/protocol/evtd-cli) instructions. For Fastest Deployment with Docker Please follow https://github.com/EverestSmartChain/EVT-DOCKER  Or to build From Source Follow the Below Method; 
 
 ```bash
 #Ubunto 20.04 Prefered 
