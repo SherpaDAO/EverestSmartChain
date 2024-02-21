@@ -1,94 +1,90 @@
-# README
+<!--
+parent:
+  order: false
+-->
 
-## Everest Smart Chain
+<div align="center">
+  <h1> Evmos </h1>
+</div>
 
-[![Version](https://img.shields.io/github/tag/tharsis/evmos.svg) ](https://github.com/EverestSmartChain/EverestSmartChain/releases)[![License: Apache-2.0](https://img.shields.io/github/license/tharsis/evmos.svg) ](https://github.com/evmos/evmos/blob/main/LICENSE)[![GoDoc](https://godoc.org/github.com/evmos/evmos?status.svg) ](https://pkg.go.dev/github.com/evmos/evmos)[![Go report card](https://goreportcard.com/badge/github.com/evmos/evmos) ](https://goreportcard.com/report/github.com/evmos/evmos)[![Lines of code](https://img.shields.io/tokei/lines/github/tharsis/evmos)](https://bestpractices.coreinfrastructure.org/projects/5018)[![Discord](https://img.shields.io/discord/809048090249134080.svg) ](https://discord.gg/pDv6sERWFF)[![Lint Status](https://github.com/evmos/evmos/actions/workflows/lint.yml/badge.svg?branch=main) ](https://github.com/evmos/evmos/actions?query=branch%3Amain+workflow%3ALint)[![Code Coverage](https://codecov.io/gh/evmos/evmos/branch/main/graph/badge.svg)](https://codecov.io/gh/evmos/evmos)
+<div align="center">
+  <a href="https://github.com/evmos/evmos/releases/latest">
+    <img alt="Version" src="https://img.shields.io/github/tag/tharsis/evmos.svg" />
+  </a>
+  <a href="https://github.com/evmos/evmos/blob/main/LICENSE">
+    <img alt="License: Apache-2.0" src="https://img.shields.io/github/license/tharsis/evmos.svg" />
+  </a>
+  <a href="https://pkg.go.dev/github.com/evmos/evmos">
+    <img alt="GoDoc" src="https://godoc.org/github.com/evmos/evmos?status.svg" />
+  </a>
+  <a href="https://goreportcard.com/report/github.com/evmos/evmos">
+    <img alt="Go report card" src="https://goreportcard.com/badge/github.com/evmos/evmos"/>
+  </a>
+  <a href="https://bestpractices.coreinfrastructure.org/projects/5018">
+    <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/tharsis/evmos">
+  </a>
+</div>
+<div align="center">
+  <a href="https://discord.gg/evmos">
+    <img alt="Discord" src="https://img.shields.io/discord/809048090249134080.svg" />
+  </a>
+  <a href="https://github.com/evmos/evmos/actions?query=branch%3Amain+workflow%3ALint">
+    <img alt="Lint Status" src="https://github.com/evmos/evmos/actions/workflows/lint.yml/badge.svg?branch=main" />
+  </a>
+  <a href="https://codecov.io/gh/evmos/evmos">
+    <img alt="Code Coverage" src="https://codecov.io/gh/evmos/evmos/branch/main/graph/badge.svg" />
+  </a>
+  <a href="https://twitter.com/EvmosOrg">
+    <img alt="Twitter Follow Evmos" src="https://img.shields.io/twitter/follow/EvmosOrg"/>
+  </a>
+</div>
 
-Everest Smart Chain is a scalable, high-throughput Proof-of-Stake blockchain that is fully compatible and interoperable with Ethereum. It's built using the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk/) which runs on top of the [Tendermint Core](https://github.com/tendermint/tendermint) consensus engine.
+Evmos is a scalable, high-throughput Proof-of-Stake blockchain
+that is fully compatible and interoperable with Ethereum.
+It's built using the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk/)
+which runs on top of the [Tendermint Core](https://github.com/tendermint/tendermint) consensus engine.
 
-### Documentation
+## Documentation
 
-Our documentation is hosted in a [separate repository](https://github.com/EverestSmartChain/docs) and can be found at [docs.everestchain.net](https://docs.everestchain.net). Head over there and check it out.
+Our documentation is hosted in a [separate repository](https://github.com/evmos/docs) and can be found at [docs.evmos.org](https://docs.evmos.org).
+Head over there and check it out.
 
 **Note**: Requires [Go 1.20+](https://golang.org/dl/)
 
-### Installation
+## Installation
 
-For prerequisites and detailed build instructions please read the [Installation](https://docs.evmos.org/protocol/evmos-cli) instructions. To Quickly Spin up a validator Node or a Full Node below steps are Enough&#x20;
+For prerequisites and detailed build instructions
+please read the [Installation](https://docs.evmos.org/protocol/evmos-cli) instructions.
+Once the dependencies are installed, run:
 
 ```bash
-#Ubunto 20.04 Prefered 
-
-# Install Dependicies 
-
-apt install jq make bc gcc
-
-# Install golang 
-
-curl -OL https://go.dev/dl/go1.21.3.linux-amd64.tar.gz
-tar -C /usr/local -xvf go1.21.3.linux-amd64.tar.gz
-nano ~/.profile
-
-#add the below in the last line on /.profile
-
-. . .
-export PATH=$PATH:/usr/local/go/bin
-
-source ~/.profile
-
-#clone this repository 
-
-git clone https://github.com/EverestSmartChain/EverestSmartChain
-cd EverestSmartChain
 make install
-
-# once make finishes your binaries will be avilable in /root/go/bin/
-
-# Create EVT keys prior starting the Chain , Assuming you are inside the Directlry where binary is i.e /root/go/bin/  (replace your-identifier-name with any name you like)
-
-./evtd keys add your-identifier-name  
-
-#initialize the chain 
-
-./evtd init your-identifier-name --chain-id "evt_8848-1"
-
-#Once the Chain is initialized some files will be generated inside /root/.evtd/config/
-# We need to Supply the Original genesis.json file prior starting the chain
-
-#empty the genesis.json file present is /root/.evtd/config/genesis.json
-
-0>/root/.evtd/config/genesis.json
-
-#Copy the content from https://github.com/EverestSmartChain/EverestSmartChain/blob/main/samples/genesis.json
-
-nano /root/.evtd/config/genesis.json
-
-#Edit the Config File and add peers 
-
-nano /root/.evtd/config/config.toml
-
-#one the Line where it says persistent_peers add "aef9fffffb810933b6131416aa2cf221870a7e89@158.69.35.30:26656"
-
-#Start The chain  and Let it Sync 
-./evtd start 
-
 ```
 
 Or check out the latest [release](https://github.com/evmos/evmos/releases).
 
-### Quick Start
+## Quick Start
 
-To learn how the Everest Smart Chain works from a high-level perspective, go to the [Protocol Overview](https://docs.evmos.org/protocol) section from the documentation. You can also check the instructions to [Run a Node](https://docs.evmos.org/protocol/evmos-cli#run-an-evmos-node).
+To learn how the Evmos works from a high-level perspective,
+go to the [Protocol Overview](https://docs.evmos.org/protocol) section from the documentation.
+You can also check the instructions to [Run a Node](https://docs.evmos.org/protocol/evmos-cli#run-an-evmos-node).
 
-### Community
+## Community
 
 The following chat channels and forums are a great spot to ask questions about Evmos:
 
-* [Evmos Twitter](https://twitter.com/EverestC19862)
-* [Evmos Discord](https://discord.gg/pDv6sERWFF)
+- [Evmos Twitter](https://twitter.com/EvmosOrg)
+- [Evmos Discord](https://discord.gg/evmos)
+- [Evmos Forum](https://commonwealth.im/evmos)
 
-### Contributing
+## Contributing
 
-Looking for a good place to start contributing? Check out some [`good first issues`](https://github.com/EverestSmartChain/EverestSmartChain/issues).
+Looking for a good place to start contributing?
+Check out some
+[`good first issues`](https://github.com/evmos/evmos/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
-For additional instructions, standards and style guides, please refer to the [Contributing](broken-reference) document.
+For additional instructions, standards and style guides, please refer to the [Contributing](./CONTRIBUTING.md) document.
+
+## Careers
+
+See our open positions on [Greenhouse](https://boards.eu.greenhouse.io/evmos).
