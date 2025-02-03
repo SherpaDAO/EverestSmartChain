@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2025-02-03T14:13:54.530775072Z",
+  "genesis_time": "2025-02-03T23:05:46.646415799Z",
   "chain_id": "evt_8848-1",
   "initial_height": "1",
   "consensus_params": {
@@ -34,7 +34,7 @@
         {
           "@type": "/ethermint.types.v1.EthAccount",
           "base_account": {
-            "address": "evt1unau7l7qz5x6j35ggagepdltsr6y7hqcyvp0qk",
+            "address": "evt16yd0xf9uvrefdt2ajjzq99fgqlczw0g4d04ku5",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -53,11 +53,11 @@
       },
       "balances": [
         {
-          "address": "evt1unau7l7qz5x6j35ggagepdltsr6y7hqcyvp0qk",
+          "address": "evt16yd0xf9uvrefdt2ajjzq99fgqlczw0g4d04ku5",
           "coins": [
             {
               "denom": "aevt",
-              "amount": "500000000000000000000000"
+              "amount": "50000000000000000000000000000"
             }
           ]
         }
@@ -65,7 +65,7 @@
       "supply": [
         {
           "denom": "aevt",
-          "amount": "500000000000000000000000"
+          "amount": "50000000000000000000000000000"
         }
       ],
       "denom_metadata": []
@@ -213,20 +213,20 @@
                   "max_rate": "0.200000000000000000",
                   "max_change_rate": "0.010000000000000000"
                 },
-                "min_self_delegation": "100000",
-                "delegator_address": "evt1unau7l7qz5x6j35ggagepdltsr6y7hqcyvp0qk",
-                "validator_address": "evtvaloper1unau7l7qz5x6j35ggagepdltsr6y7hqcsdd87d",
+                "min_self_delegation": "10000",
+                "delegator_address": "evt16yd0xf9uvrefdt2ajjzq99fgqlczw0g4d04ku5",
+                "validator_address": "evtvaloper16yd0xf9uvrefdt2ajjzq99fgqlczw0g4ewe7z0",
                 "pubkey": {
                   "@type": "/cosmos.crypto.ed25519.PubKey",
-                  "key": "kFBxUk3yOlEji2LGLCl1NoLdLdn7d/+YwzxqbhYbZ/s="
+                  "key": "WjT0mDOWnWrNtiBRrvy139iFt7pWQYdCaWcWKCAMNW0="
                 },
                 "value": {
                   "denom": "aevt",
-                  "amount": "100000000000000000000000"
+                  "amount": "1000000000000000000000000"
                 }
               }
             ],
-            "memo": "7e445ee6129b64224d8bf7f04f89460d6670f7bc@149.56.180.51:26656",
+            "memo": "65859a5201c8598166fc023fe417c8ba4d0405f3@149.56.180.51:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -236,7 +236,7 @@
               {
                 "public_key": {
                   "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
-                  "key": "A3oN+iILWfxDFrLiC+XXEUfEv8P3qHO2uSdAkRZsKFgj"
+                  "key": "Azs9QmB8jRWRHoOlKUWsfVTusn/wGuMlGPAYn6VKjo9I"
                 },
                 "mode_info": {
                   "single": {
@@ -247,12 +247,7 @@
               }
             ],
             "fee": {
-              "amount": [
-                {
-                  "denom": "aevt",
-                  "amount": "130000"
-                }
-              ],
+              "amount": [],
               "gas_limit": "200000",
               "payer": "",
               "granter": ""
@@ -260,7 +255,7 @@
             "tip": null
           },
           "signatures": [
-            "cyuuUS0IwbmT9+bp/tcHL4ns340NSKzlrrqhi9RqSRcZAK+ftTHAijIvQZtrWDqIKUbgY1Noysbm78BnUG8p4gE="
+            "SA7TSxbj+FNL9UfgmaSKkW3wdNeflPi8mTwA5m3s1ykANHGmYj6GUGbAsYj9cDtV7MDA3yF7eegdthoQKORjRwA="
           ]
         }
       ]
